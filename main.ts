@@ -1,28 +1,7 @@
-scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
-    game.over(true)
-    music.playMelody("G B A G C5 B A B ", 120)
-})
-controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-	
-})
-function setPlayer () {
-    LuciferGabriel.x = 25
-    LuciferGabriel.y = 550
-}
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    if (LuciferGabriel.vy == 0) {
-        LuciferGabriel.vy = -150
-    }
-})
-scene.onOverlapTile(SpriteKind.Player, assets.tile`Lava`, function (sprite, location) {
-    setPlayer()
-    info.changeLifeBy(-1)
-    scene.cameraShake(4, 500)
-})
-info.player1.onLifeZero(function () {
-    game.over(false, effects.melt)
-})
-let LuciferGabriel: Sprite = null
+
+
+
+    `, SpriteKind.Player)
 LuciferGabriel = sprites.create(assets.image`Lucifer or Gabriel`, SpriteKind.Player)
 controller.moveSprite(LuciferGabriel, 100, 0)
 setPlayer()
