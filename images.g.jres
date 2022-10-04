@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAIAAAAAACAiAgAAAAAAAAICAAAAAAAgIgLwDwAAAAAAAPAAAAAA8A8A8AAAAAD//wDwAAD/D//w/////w8A//8A8AAA/w/wDwDwAAAAAAAAAPAAAAAAAAAA8A8AAAAFEQEAAAAAAAUBAQAAAAAABREBAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Lucifer or Gabriel"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
